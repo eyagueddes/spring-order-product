@@ -8,8 +8,10 @@ import jakarta.persistence.Id;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 
+import lombok.Data;
 
 @Entity
+@Data   //to create fetters setters with lambok
 public class Product{
 
 @Id @GeneratedValue(strategy = GenerationType.IDENTITY)

@@ -1,3 +1,5 @@
+package com.example.startProject.entity;
+
 //Represents a customer order.
 
 import java.math.BigDecimal;
