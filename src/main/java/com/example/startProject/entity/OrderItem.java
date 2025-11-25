@@ -1,6 +1,11 @@
 
 //Since one order contains multiple products and a product can appear in many orders, you need an intermediate table → OrderItem.
 
+import com.example.startProject.entity.Product;
+import jakarta.persistence.*;
+import java.math.BigDecimal;
+
+
 @Entity
 public class OrderItem {
 

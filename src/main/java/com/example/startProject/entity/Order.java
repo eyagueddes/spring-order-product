@@ -1,7 +1,13 @@
 //Represents a customer order.
-@Entity
-public class Order {
 
+import java.math.BigDecimal;
+import java.time.LocalDateTime;
+import java.util.List;
+
+import jakarta.persistence.*;
+
+@Entity
+public class Order{
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
